@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <div class="generic-card flex-coloumn">
+    <div class="container flex-coloumn">
+      <section class="card-value">
+        <div class="input-group">
+          <label for="day-number"  id="label1">DAY</label>
+          <input type="number" class="number initial" placeholder="DD" id="day-number">
+          <p class="msg-day"></p>
+        </div>
+      
+        <div class="input-group">
+          <label for="month-number" id="label2">MONTH</label>
+          <input type="number" class="number months" placeholder="MM" id="month-number">
+          <p class="msg-month"></p>
+        </div>
+    
+        <div class="input-group">
+          <label for="year-number" id="label3">YEAR</label>
+          <input type="number" class="number years" placeholder="YYY" id="year-number">
+          <p class="msg-years"></p>
+        </div>
+        <img src="assets/images/icon-arrow.svg" class="arrow-icon" alt="Arrow Icon">
+
+      </section>
+      <section class="answer">
+        <p><span class="generated">--</span>years</p>
+        <p><span class="generate">--</span>months</p>
+        <p><span class="generat">--</span>days</p>
+      </section>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Aina John O.</a>.
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
